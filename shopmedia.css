@@ -1,0 +1,480 @@
+
+@media (max-width: 1800px) {
+    .header,
+    .footer,
+    .explore,
+    .brands,
+    .new,
+    .payday,
+    .young,
+    .app,
+    .promo {
+        justify-content: space-around;
+    }
+
+    .explore .content,
+    .payday .content {
+        max-width: 1300px;
+    }
+
+    .explore .content .text p {
+        max-width: 400px;
+    }
+
+    .explore .content .text button {
+        margin-right: auto;
+    }
+
+    .new .content {
+        align-items: center;
+    }
+
+    .new .content .new-boxes {
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .new .content .new-boxes .box {
+        max-width: 400px;
+    }
+
+    .payday .content {
+        justify-content: space-around;
+        padding: 50px 20px;
+    }
+
+    .payday .content .paydaypic {
+        display: none;
+    }
+
+    .payday .content .info {
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .payday .content .info h2 {
+        max-width: 500px;
+    }
+
+    .payday .content .info div {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .young .content,
+    .young .content .young-boxes {
+        justify-content: space-around;
+    }
+
+    .young .content h2 {
+        margin-left: 30px;
+    }
+
+    .young .content .young-boxes .box {
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .explore .content {
+        max-width: 1100px;
+    }
+
+    .explore .content .text h1 {
+        max-width: 400px;
+        font-size: 80px;
+        line-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .brands .content .brands-list {
+        max-width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .brands .content .brands-list li {
+        margin: 20px;
+    }
+
+    .new .content .new-boxes .box {
+        max-width: 300px;
+    }
+
+    .new .content .new-boxes .box .category .title {
+        max-width: 200px;
+    }
+
+    .payday .content {
+        max-width: 1000px;
+    }
+
+    .payday .content .info {
+        max-width: 800px;
+    }
+
+    .payday .content .info h2 {
+        max-width: 400px;
+        font-size: 80px;
+        line-height: 110px;
+        background-size: 90%;
+    }
+
+    .young .content h2 {
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .young .content .young-boxes .box {
+        max-width: 500px;
+    }
+
+
+
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 890px;
+        width: 100%;
+    }
+
+    .footer .social {
+        align-self: flex-start;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explore .content {
+        max-width: 1200px;
+        width: 100%;
+        border-radius: 0;
+        background-image: none;
+    }
+
+    .explore .content .text {
+        flex-direction: row;
+        max-width: 800px;
+        width: 100%;        
+        margin: 0 auto;
+    }
+
+    .explore .content .text div {
+        margin-left: 30px;
+    }
+
+    .brands .content {
+        margin-top: 0;
+    }
+
+    .new .content .new-boxes {
+        flex-wrap: wrap;
+        max-width: 700px;
+    }
+
+    .new .content .new-boxes .box {
+        margin-bottom: 40px;
+    }
+
+    .payday .content {
+        max-width: 800px;
+    }
+
+    .payday .content .info {
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .young .content .young-boxes .box {
+        max-width: 400px;
+    }
+
+    .app .content .download {
+        max-width: 400px;
+    }
+
+    .app .content .mobilepic {
+        max-width: 400px;
+    }
+
+    .app .content .download .app-links li {
+        max-width: 180px;
+    }
+
+    .promo .content {
+        max-width: 700px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: row;
+    }
+
+    .links-list,
+    .sign-up {
+        display: none;
+        width: 0;
+    }
+
+    .nav-button {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .sign-mob {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .explore .content .text {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .brands .content .brands-list {
+        max-width: 600px;
+    }
+
+    .payday .content {
+        max-width: 700px;
+    }
+
+    .young .content .young-boxes {
+        flex-direction: column;
+    }
+
+    .young .content .young-boxes .box {
+        max-width: 500px;
+        margin-bottom: 40px;
+    }
+
+    .app .content {
+        flex-direction: column;
+    }
+
+    .app .content .download {
+        max-width: 500px;
+        margin-bottom: 40px;
+    }
+
+    .app .content .mobilepic {
+        max-width: 500px;
+    }
+
+    .app .content .download .app-links li {
+        max-width: 205px;
+    }
+
+
+
+    .footer {
+        max-width: 300px;
+        width: 100%;
+
+        margin: 0 auto;
+    }
+
+    .footer .social {
+        margin-bottom: 40px;
+    }
+
+    .footer .ft-links {
+        flex-wrap: wrap;
+
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .footer .ft-links .company,
+    .footer .ft-links .quick {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .explore .content .text {
+        flex-direction: column;
+
+        max-width: 500px;
+    }
+
+    .explore .content .text h1 {
+        width: 100%;
+    }
+
+    .explore .content .text div {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .new .content .new-boxes {
+        max-width: 300px;
+    }
+
+    .payday .content {
+        max-width: 600px;
+    }
+
+    .payday .content .info {
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .payday .content {
+        max-width: 500px;
+    }
+
+    .payday .content .info {
+        max-width: 400px;
+    }
+
+    .promo .content {
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .explore .content .text {
+        max-width: 400px;
+    }
+    
+    .explore .content .text h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .brands .content .brands-list {
+        max-width: 300px;
+    }
+
+    .brands .content .brands-list li {
+        margin: 30px;
+    }
+
+    .payday .content {
+        max-width: 400px;
+    }
+
+    .payday .content .info {
+        max-width: 300px;
+    }
+
+    .payday .content .info h2 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .young .content h2 {
+        max-width: 250px;
+    }
+
+    .young .content .young-boxes .box {
+        max-width: 400px;
+    }
+
+    .young .content .young-boxes .box .category .title {
+        max-width: 200px;
+    }
+
+    .app .content .download {
+        max-width: 400px;
+    }
+
+    .app .content .mobilepic {
+        max-width: 400px;
+    }
+
+    .app .content .download .app-links li {
+        max-width: 180px;
+    }
+
+    .promo .content {
+        max-width: 400px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .explore .content .text {
+        max-width: 300px;
+    }
+
+    .explore .content .text h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .new .content h2,
+    .young .content h2,
+    .app .content .download h2,
+    .promo .content h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .payday .content {
+        max-width: 300px;
+        padding: 50px 10px;
+    }
+
+    .payday .content .info {
+        max-width: 280px;
+    }
+
+    .young .content .young-boxes .box {
+        max-width: 300px;
+    }
+
+    .app .content .download {
+        max-width: 300px;
+    }
+
+    .app .content .mobilepic {
+        max-width: 300px;
+    }
+
+    .app .content .download .app-links li {
+        max-width: 130px;
+    }
+
+    .promo .content {
+        max-width: 300px;
+    }
+
+    .promo .content .email {
+        max-width: 280px;
+    }
+
+    .promo .content .email button {
+        display: none;
+    }
+
+    .promo .content .send-mob {
+        display: block;
+        margin-top: 30px;
+    }
+}

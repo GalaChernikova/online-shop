@@ -1,0 +1,61 @@
+.links-list li a:hover {
+    font-weight: 700;
+}
+
+.sign-up:hover,
+.explore .content .text button:hover,
+.promo .content .email button:hover {
+    background-color: #E5C643;
+    color: #000000;
+}
+
+.payday .content .info button:hover {
+    background-color: #F4F6F5;
+    color: #000000;
+}
+
+.new .content .new-boxes .box a:hover,
+.young .content .young-boxes .box a:hover {
+    animation: myAnim 2s ease-out 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+.new .content .new-boxes .box img:hover,
+.young .content .young-boxes .box img:hover,
+.app .content .download .app-links li img:hover {
+    box-shadow: -1px 18px 30px 9px #dedbdb;
+    transition: all 0.3s ease-out;
+}
+
+.social-links li:hover,
+.ft-links li a:hover {
+    filter: brightness(180%);
+}
+

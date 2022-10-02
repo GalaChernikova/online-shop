@@ -465,7 +465,8 @@
         max-width: 300px;
     }
 
-    .promo .content .email {
+    .promo .content .email,
+    .promo .content .email input {
         max-width: 280px;
     }
 

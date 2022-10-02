@@ -471,6 +471,7 @@
 
     .promo .content .email button {
         display: none;
+        width: 0;
     }
 
     .promo .content .send-mob {
